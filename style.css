@@ -1,45 +1,56 @@
 body {
-    background: #303841;
+    background: #222831;
+}
+
+.header_h1 {
+    text-align: center;
+    color: #0092ca;
+    font-family: 'Arial', Sans-serif;
 }
 
 header {
     font-family: "Arial", Sans-serif;
-    color: #be3144;
     text-align: center;
     padding: 14px 16px;
     align-content: center;
-    box-shadow: 0px 2px 5px white;
+    padding: 10px;
+    width: 50%;
+    margin: 0 24%;
+    box-shadow: 0px 2px 5px #0092ca;
 }
 
 header a {
-    border: #3a4750 60px;
-    color: #be3144;
+    color: #0092ca;
     padding: 14px 16px;
     text-decoration: none;
 }
 
 header a:hover {
-    background-color: #454343;
+    background-color: rgba(57, 62, 70, 0.36);
 }
 
-.section {
-    font-size: 100% ;
+.section h2 {
+    color: #eeeeee;
+    font-family: "Arial", Sans-serif;
     text-align: center;
 }
 
+.footer {
+    text-align: center;
+}
 
 .first-color {
-    background: #d3d6db;
+    background: #222831;
 }
 
 .second-color {
-    background: #3a4750;
+    background: #393e46;
 }
 
 .third-color {
-    background: #303841;
+    background: #0092ca;
 }
 
 .fourth-color {
-    background: #be3144;
+    background: #eeeeee;
 }
