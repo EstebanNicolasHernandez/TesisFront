@@ -21,9 +21,9 @@ header {
 }
 
 header a {
-    color: #0092ca;
-    padding: 14px 16px;
+    color: #eeeeee;
     text-decoration: none;
+    border: 2px red solid;
 }
 
 header a:hover {
@@ -47,7 +47,7 @@ header a:hover {
 }
 
 .confirm-button {
-    background-color: #0092ca;
+    background-color: #3e5e6b;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -60,7 +60,23 @@ header a:hover {
 
 .confirm-button:hover {
     transition-duration: 0.4s;
-    background-color: rgba(0, 146, 202, 0.64);
+    background-color: #0092ca;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+select{
+    background-color: #3e5e6b;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+select:hover{
+    transition-duration: 0.4s;
+    background-color: #0092ca;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
