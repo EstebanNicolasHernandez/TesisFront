@@ -1,5 +1,6 @@
 body {
-    background-image: linear-gradient(to right, rgb(49, 71, 85), rgb(38, 160, 218));
+    background: #222831;
+    /*background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));*/
 }
 
 .header_h1 {
