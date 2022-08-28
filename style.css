@@ -1,4 +1,6 @@
 body {
+    margin: 0px;
+    padding: 0px;
     background: #222831;
     /*background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));*/
 }
@@ -13,7 +15,7 @@ header {
     font-family: "Arial", Sans-serif;
     font-weight: bold;
     text-align: center;
-    padding: 20px;
+    padding: 20px 0px;
     box-shadow: 0px 2px 0px #0092ca;
 }
 
@@ -28,13 +30,13 @@ header a:hover {
     background-color: #0092ca;
 }
 
-.section h2 {
+.section h3 {
     color: #eeeeee;
     font-family: "Arial", Sans-serif;
     text-align: center;
 }
 
-label{
+label {
     font-weight: bold;
 }
 
@@ -102,4 +104,58 @@ select:hover {
 
 .fourth-color {
     background: #eeeeee;
+}
+
+.logo {
+    float: left;
+}
+
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+    width: 1200px;
+    margin: 0 auto;
+    height: 70px;
+}
+
+.navigation-bar {
+    box-shadow: 0px 2px 0px #0092ca;
+    height: 70px;
+    text-align: center;
+}
+
+.navigation-bar img {
+    float: left;
+}
+
+.navigation-bar ul {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.navigation-bar li {
+    list-style-type: none;
+    padding: 0px;
+    height: 24px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline;
+}
+
+.navigation-bar li a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Arial", Sans-serif;
+    text-decoration: none;
+    line-height: 70px;
+    padding: 5px 15px;
+    opacity: 0.7;
+}
+
+#menu {
+    float: right;
 }
